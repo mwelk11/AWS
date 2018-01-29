@@ -1,4 +1,4 @@
-package lambda;
+package name;
 
 public class Name {
     
