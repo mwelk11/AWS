@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+    <div class="container">
+        <section class="jumbotron center">Names returned from Lambda!</section>
+    </div>
+
+    <div class="table-responsive" ng-init="getNames()">
+        <table class="table table-striped table-bordered" id="topicTable">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="name in names">
+                    <td>{{ name.first }}</td>
+                    <td>{{ name.last }}</td>>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</html>
